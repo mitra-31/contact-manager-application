@@ -55,7 +55,9 @@ http://127.0.0.1:5000/
 ## Authors
 
 Name: Thammineni Pushyamitra
+
 Mail: pushyamitra.cse.rymec@gmail.com
+
 Linkedin : [@mitra](https://www.linkedin.com/in/thammineni-pushyamitra-5550821b9/)
 
 
