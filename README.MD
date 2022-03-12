@@ -27,14 +27,14 @@ An in-depth paragraph about your project and overview of use.
 ### Installing
 
 * Download the source code
-* Any modifications needed to be made to files/folders
+* No modifications needed to be made to files/folders
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+
+* __STEP 1 :__ Installing required packages.
 ```
-code blocks for commands
+pip install -r requirements.txt
 ```
 
 ## Help
