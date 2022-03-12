@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='login.css') }}">
+
+    <title>Register Page</title>
+</head>
+<body>
+    <div class="login-box">
+        <h1>Sign Up</h1>
+
+        <form action="" method="post">
+            <p>E-Mail</p>
+            <input type="email" name="email" placeholder="E-Mail" required>
+            <p>Password</p>
+            <input type="password" name="password" placeholder="password" required>
+            <p>Secret Key</p>
+            <input type="password" name="secretkey" placeholder="secretkey" required>
+            <button type="submit" name="login">Register</button>
+            <p>Have account already ? <span> <a href="{{ url_for('home') }}"> Sign in.</a></span></p>
+        </form> 
+
+    </div>
+
+
+</body>
+</html>

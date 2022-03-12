@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='login.css') }}"
+    />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>Login</h1>
+      {% with messages = get_flashed_messages() %} {% if messages %} 
+      {% for message in messages %}
+      <p id="flash">{{ message }}</p>
+      <script>
+        function hideAfterSomeTime(hideTime) {
+          // 10000 = 10 seconds. Change it
+          console.log("invoked");
+          window.setTimeout(
+            "document.getElementById('flash').style.display='none'",
+            hideTime ? hideTime : 10000
+          );
+        }
+        hideAfterSomeTime(10000);
+      </script>
+      {% endfor %} {% endif %} {% endwith %}
+      <form action="/" method="post">
+        <p>E-Mail</p>
+        <input type="text" name="email" placeholder="E-Mail" required />
+        <p>Password</p>
+        <input type="password" name="password" placeholder="password" required />
+        <button type="submit" name="login">Login</button>
+        <p>
+          Don't have account?
+          <span> <a href="{{ url_for('register') }}"> Sign up now.</a></span>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

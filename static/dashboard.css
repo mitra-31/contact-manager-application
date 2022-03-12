@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    min-height:100vh;
+    display:flex;
+}
+
+.left{
+    width: 30vw;
+    background-color:#1C254D;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.logout{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.p{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:15px 0;
+}
+
+#flash{
+    color: #e90000;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:15px 0;
+    padding:15 10px;
+}
+
+.logoutBTN{
+    background-color: #fff;
+    color:black;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 9px 10px;
+    /* width: 100%; */
+    border-radius: 5px;
+    border: 0;
+}
+
+.add p{
+    font-size: 20px;
+    margin:15px 0;
+}
+
+.add input{
+    
+    margin:10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.add button{
+    background-color: #e90000;
+    color:#fff;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 9px 10px;
+    width: 40%;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+
+.right{
+    width: 70vw;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .message {
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.table{
+    width: 100%;   
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.display .table thead tr{
+    background-color: #1C254D;
+    color: #ffffff;
+    margin: 25x 0px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.display .table th,
+.display .table td {
+    margin: 25x 0px;
+  padding: 12px 15px;
+}
+
+.display .table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.display .table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
