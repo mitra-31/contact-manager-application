@@ -31,43 +31,37 @@ An in-depth paragraph about your project and overview of use.
 
 ### Executing program
 
+* Before going to run the application make sure current working directory in cmd is pointing to the application folder i.e, /contact app.
 
 * __STEP 1 :__ Installing required packages.
 ```
 pip install -r requirements.txt
 ```
 
-## Help
+* __STEP 2 :__ Start the application
+```
+main.py
+```
 
-Any advise for common problems or issues.
+* __STEP 3 :__ Open this url in web browser.
 ```
-command to run if program contains helper info
+http://127.0.0.1:5000/
 ```
+
+
+## Screen Shots
+
 
 ## Authors
 
-Contributors names and contact info
+Name: Thammineni Pushyamitra
+Mail: pushyamitra.cse.rymec@gmail.com
+Linkedin : [@mitra](https://www.linkedin.com/in/thammineni-pushyamitra-5550821b9/)
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+* [flask](https://flask.palletsprojects.com/en/2.0.x/)
+* [Julian Nash](https://pythonise.com/tags/flask)
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
