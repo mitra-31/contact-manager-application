@@ -51,9 +51,15 @@ http://127.0.0.1:5000/
 
 ## Screen Shots
 
-- Login Page
+- Register Page
+![picture alt](./static/screenshots/register.PNG/300x200)
+   
 
-![picture alt](./static/screenshots/login.PNG)
+- Login Page
+![picture alt](./static/screenshots/login.PNG/300x200)
+
+-Dashboard Page
+![picture alt](./static/screenshots/capture.PNG/300x200)
 
 ## Authors
 
