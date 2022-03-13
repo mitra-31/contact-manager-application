@@ -59,7 +59,7 @@ http://127.0.0.1:5000/
 ![picture alt](./static/screenshots/login.PNG)
 
 - Dashboard Page
-![picture alt](./static/screenshots/capture.PNG)
+![picture alt](./static/screenshots/Capture.PNG)
 
 ## Authors
 
