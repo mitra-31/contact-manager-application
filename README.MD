@@ -27,6 +27,8 @@ Web based contact manager application using python flask web framework.
 ### Installing
 
 * Download the source code
+* Download the Xampp Application [click here](https://www.apachefriends.org/download.html)
+* Download the Python [click here](https://www.python.org/downloads/)
 * No modifications needed to be made to files/folders
 
 ### Executing program
@@ -43,7 +45,11 @@ pip install -r requirements.txt
 main.py
 ```
 
-* __STEP 3 :__ Open this url in web browser.
+* __STEP 3 :__ Start your Xampp application. Start Apache and MySQl Server.
+
+* __STEP 4 :__ import the contactdb.sql into the xampp.
+
+* __STEP 5 :__ Open this url in web browser.
 ```
 http://127.0.0.1:5000/
 ```
