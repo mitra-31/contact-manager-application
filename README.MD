@@ -52,14 +52,14 @@ http://127.0.0.1:5000/
 ## Screen Shots
 
 - Register Page
-![picture alt](./static/screenshots/register.PNG/300x200)
+![picture alt](./static/screenshots/register.PNG/200x150)
    
 
 - Login Page
-![picture alt](./static/screenshots/login.PNG/300x200)
+![picture alt](./static/screenshots/login.PNG/200x150)
 
 -Dashboard Page
-![picture alt](./static/screenshots/capture.PNG/300x200)
+![picture alt](./static/screenshots/capture.PNG/200x150)
 
 ## Authors
 
