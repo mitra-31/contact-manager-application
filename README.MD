@@ -4,7 +4,7 @@ Contact Manager Application
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Web based contact manager application using python flask web framework.
 
 ## Getting Started
 
@@ -52,14 +52,14 @@ http://127.0.0.1:5000/
 ## Screen Shots
 
 - Register Page
-![picture alt](./static/screenshots/register.PNG/200x150)
+![picture alt](./static/screenshots/register.PNG)
    
 
 - Login Page
-![picture alt](./static/screenshots/login.PNG/200x150)
+![picture alt](./static/screenshots/login.PNG)
 
--Dashboard Page
-![picture alt](./static/screenshots/capture.PNG/200x150)
+- Dashboard Page
+![picture alt](./static/screenshots/capture.PNG)
 
 ## Authors
 
